@@ -1,0 +1,25 @@
+# --- Secrets / environment (never commit) ---
+.env
+.env.local
+.env.*.local
+
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Claude Code local state ---
+.claude/
+
+# --- Unrelated skills-library doc (not part of this project) ---
+CLAUDE.md
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
